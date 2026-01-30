@@ -1,0 +1,28 @@
+{
+  "name": "demo-node-ci",
+  "version": "1.0.0",
+  "description": "Node Projet CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuGoJaCques/Demo-Node-CI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuGoJaCques/Demo-Node-CI/issues"
+  },
+  "homepage": "https://github.com/HuGoJaCques/Demo-Node-CI#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0"
+  }
+}
